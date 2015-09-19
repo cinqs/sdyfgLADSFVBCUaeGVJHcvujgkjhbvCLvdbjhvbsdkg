@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+    <meta name="renderer" content="webkit">
+
+    <title>MathaÏ</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap-formhelpers.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.2/css/swiper.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,100' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cinzel:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!-- 首页置顶固定导航条 -->
+    <nav id="nav" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <!-- 小于768时简略菜单栏按钮 -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- fin-->
+          <a class="navbar-brand" href="index.html"><img alt="Brand" src="img/logo.png"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a id="nav1">présentation</a></li>
+            <li><a id="nav2">la carte</a></li>
+            <li><a id="nav3">réservation</a></li>
+            <li><a id="nav4">galerie</a></li>
+            <li><a id="nav5">contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- fin -->
+    <!-- 首页背景店面图 fixed-->
+    <div id="bgfond"></div>
+    <!-- fin -->
+    <!-- 首页视频 fixed-->
+    <div id="bgvideo">
+      <video id="video" loop autoplay> 
+        <source src="video/20svideo.mp4" type="video/mp4">
+      </video>
+    </div>
+    <!-- fin -->
+    <!-- 首页文字 -->
+    <div id="center" class="container">
+      <section>
+        <a id="play" class="glyphicon video_control" onclick="playPause()"></a>
+        <a id="toPresentation" class="glyphicon glyphicon-menu-down"></a>
+        <a id="voice" class="glyphicon video_control" onclick="voiceonOff()"></a>
+      </section>
+      <div>
+        <h2>Gastronomie</h2>
+        <h2>Thailandaise</h2>
+        <p>《LA cuisine, c’est l’envers du décor la où s’activent les hommes et femmes pour le plaisir des autres.》</p>
+      </div>
+    </div>
+    <!-- fin -->
+    <!-- presentation -->
+    <div id="presentation" class="container">
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
+          <p>En effet, la carte MATHAI allie fraicheur des produits, saveurs subtiles et épices orientales dans un concept visant au partage.</p>
+          <p>Et nous, cuisiniers passionnés, avons une seule priorité: provoquer chez vous, à travers nos plats une émotion particulière,vous faire découvrir de nouvelles saveurs, vous entrainer dans un savoureux voyage au coeur de la thailande.</p>
+        </div>
+      </div>
+    </div>
+    <!-- fin -->
+    <!-- la carte -->
+    <div id="la_carte" class="container">
+      <div class="row">
+        <center>
+          <div id="cssmenu">
+            <ul>
+              <li id="entree" class="has-sub">
+                <a href=""><span>entrée</span></a>
+                <ul class="container-fluid">
+                  <center><span>entrée chaudes</span></center>
+                  <div class="row">
+                    <div class="col-xs-6 col-sm-6">
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                    </div>
+                    <div class="col-xs-6 col-sm-6">
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                    </div>
+                  </div>
+                  <center><span>entrée froid</span></center>
+                  <div class="row">
+                    <div class="col-xs-6 col-sm-6">
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                    </div>
+                    <div class="col-xs-6 col-sm-6">
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+
+              <li id="viandes" class="has-sub">
+                <a href=""><span>viandes</span></a>
+                <ul class="container-fluid">
+                  <center><span>entrée chaudes</span></center>
+                  <div class="row">
+                    <div class="col-xs-6 col-sm-6">
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                    </div>
+                    <div class="col-xs-6 col-sm-6">
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+
+              <li id="poissons" class="has-sub">
+                <a href=""><span>poissons</span></a>
+                <ul class="container-fluid">
+                  <center><span>entrée chaudes</span></center>
+                  <div class="row">
+                    <div class="col-xs-6 col-sm-6">
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                    </div>
+                    <div class="col-xs-6 col-sm-6">
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                    </div>
+                  </div>
+                </ul>  
+              </li>
+
+              <li id="accompagne" class="has-sub">
+                <a href=""><span>accompagnement</span></a>
+                <ul class="container-fluid">
+                  <center><span>entrée chaudes</span></center>
+                  <div class="row">
+                    <div class="col-xs-6 col-sm-6">
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                    </div>
+                    <div class="col-xs-6 col-sm-6">
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                    </div>
+                  </div>
+                </ul>  
+              </li>
+
+              <li id="desserts" class="has-sub">
+                <a href=""><span>desserts</span></a>
+                <ul class="container-fluid">
+                  <center><span>entrée chaudes</span></center>
+                  <div class="row">
+                    <div class="col-xs-6 col-sm-6">
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                    </div>
+                    <div class="col-xs-6 col-sm-6">
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                      <li>
+                        <h3>salade avocat koong - 10.50€</h3>
+                        <P>asortiment de biegnets, crevette, nems, aumonière, saumoussa</p>
+                      </li>
+                    </div>
+                  </div>
+                </ul>  
+              </li>
+            </ul>
+          </div>
+        </center>
+      </div>   
+    </div>
+    <!-- fin -->
+    <!-- reservation -->
+    <div id="reservation">
+      <center>
+        <div class="row">
+          <div>
+            <h1>réservation</h1>
+            <form class="form-horizontal">
+              <div class="form-group col-xs-6">
+                <label class="col-sm-4 control-label" for="nom">Nom:</label>
+                <input class="form-control" type="text" id="nom" data-name="nom" placeholder="">
+              </div>
+              <div class="form-group col-xs-6">
+                <label class="col-sm-4 control-label" for="prenom">Prénom:</label>
+                <input class="form-control" type="text" id="prenom" data-name="prenom" placeholder="">
+              </div>
+              <div class="form-group">
+                <label class="col-xs-5 control-label" for="date">Date de Réservation:</label>
+                <div class="bfh-datepicker col-xs-7" data-min="today" data-close="true" data-date="today" data-align="right" id="date" data-name="date"></div>
+              </div>
+              <div class="form-group">
+                <label class="col-xs-5 control-label" for="time">Heure de Réservation:</label>
+                <div class="bfh-selectbox col-xs-7" id="time" data-name="time">
+                  <div data-value="1">1</div>
+                  <div data-value="2">2</div>
+                  <div data-value="3">3</div>
+                  <div data-value="4">4</div>
+                  <div data-value="5">5</div>
+                  <div data-value="6">6</div>
+                  <div data-value="7">7</div>
+                  <div data-value="8">8</div>
+                  <div data-value="9">9</div>
+                  <div data-value="10">10</div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-xs-5 control-label" for="person">Nombre de Persone:</label>
+                <div class="bfh-selectbox col-xs-7" id="person" data-name="person">
+                  <div data-value="1">1</div>
+                  <div data-value="2">2</div>
+                  <div data-value="3">3</div>
+                  <div data-value="4">4</div>
+                  <div data-value="5">5</div>
+                  <div data-value="6">6</div>
+                  <div data-value="7">7</div>
+                  <div data-value="8">8</div>
+                  <div data-value="9">9</div>
+                  <div data-value="10">10</div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-xs-5 control-label" for="telephone">Numéro Téléphone:</label>
+                <div class="col-xs-7">
+                  <input class="form-control" type="text" id="telephone" data-name="telephone" placeholder="">
+                </div>
+              </div>
+              <div id="envoyer">
+                <button type="submit" class="envoyer">Je réserve!</button>
+              </div>
+            </form>
+          </div>  
+        </div>
+      </center>
+    </div>
+    <!-- fin -->
+    <!-- calery -->
+    <div id="calery">
+      <div class="swiper-container">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide" style="background-image:url(img/swiper1.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(img/swiper2.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(img/swiper3.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(img/swiper4.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(img/swiper5.jpg)"></div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination swiper-pagination-white"></div>
+      </div>
+      <div id="video_et_photo">
+        <a href="">Regarder la vidéo complète et toutes les photos</a>
+      </div>
+    </div>
+    <!-- fin -->
+    <!-- contact -->
+    <div id="contact">
+      <center>
+        <h1>contact</h1>
+        <h3>Vous pouvez nous trouver à l'adresse suivante:</h3>
+        <a href="https://www.google.fr/maps/place/11+Boulevard+Auguste+Blanqui,+75013+Paris/@48.830479,2.3538903,17z/data=!3m1!4b1!4m2!3m1!1s0x47e6718e03f35d4d:0xb7e624e6a867eaac"><span>11 Boulevard Auguste Blanqui 75013, Paris</span></a>
+        <div>
+          <div class="width80">
+            <li>
+              <h3>Numero Téléphone</h3>
+              <p>01 45 88 22 18</p>
+            </li>
+            <li>
+              <h3>Horaires d'ouverture</h3>
+              <p>LUNDI à SAMEDI: 12H - 14H30 / 19H - 23H</p>
+              <p>DIMANCHE: Fermé</p>
+            </li>
+          </div>
+          <div class="width20">
+            <li><a href=""><img id="logo_fb" src="img/icon-fb.png" alt="Facebook" onmouseover="changeFb()" onmousedown="changeFb()" onmouseout="changebackFb()"></a></li>
+            <li><a href=""><img id="logo_inst" src="img/icon-inst.png" alt="Instagram" onmouseover="changeInst()" onmouseout="changebackInst()"></a></li>
+          </div>
+        </div>
+      </center>
+      <p id="copyright">
+        Web designed by EYELLE. Site web créé par EYELLE. Copyright Tout droits réservés. All rights reserved. 2015-2016.
+      </p>
+      
+    </div>
+    <!-- fin -->
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap-formhelpers.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.2/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.2/js/swiper.jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      widthW=$(window).width();
+      if (widthW<=600) {
+        num = 1;
+      }
+      else{
+        num = 3;
+      };
+      var swiper = new Swiper('.swiper-container', {
+          pagination: '.swiper-pagination',
+          paginationClickable: true,
+          loop: 'true',
+          autoplay: '3000',
+          slidesPerView: num,
+          spaceBetween: 20
+      });
+    });
+    </script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

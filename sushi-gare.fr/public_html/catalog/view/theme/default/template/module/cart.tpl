@@ -1,0 +1,1 @@
+<a href="<?php echo $cart; ?>"> <b><?php echo $heading_title;?>:</b><span id="cart-total"><?php echo $text_items; ?></span></a>

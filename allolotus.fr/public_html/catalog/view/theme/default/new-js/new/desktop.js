@@ -1,0 +1,13 @@
+$(document).ready(function(){
+	$("#fixedCart").css({
+		"top":$("#content_header").height()+20,
+	});
+	$(".carteLeft").css({
+		"min-height":$(".carteRight").height(),
+	});
+	$(".carteRight").css({
+		"margin-top":$("#content_header").height(),
+		"padding-top":0,
+		"min-height":$(window).height(),
+	});
+});

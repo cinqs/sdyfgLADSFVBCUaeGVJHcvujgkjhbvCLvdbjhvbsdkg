@@ -1,0 +1,9 @@
+#fixedCart{
+	position: fixed;
+	left: 25px;
+	width: 30vw;
+	z-index: 999;
+}
+#cartIcon{
+	display: none;
+}

@@ -1,0 +1,124 @@
+header.header{
+	background: #2b2727;
+}
+.navbar-brand{
+	line-height: 24px;
+	position: relative;
+	
+}
+.navbar-nav > li > a{
+	color: #ccc;
+	font-size: 16px;
+	line-height: 18px;
+	padding: 18px 25px;
+}
+.navbar-collapse{
+	float: right;
+}
+.navbar-header span.logo_line{
+	border-bottom: solid 4px #990000;
+	width: 86px;
+	display: inline-block;
+	position: absolute;
+	left: 0px;
+	bottom: -4px;
+}
+
+.navbar {
+	margin-bottom: 0px;
+	border: none;
+	border-radius: 0px;
+	 width: auto;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar-nav > li > a:hover ,.navbar-nav > li > a:focus {
+	background: #990000;
+	color: #fff;
+	outline: none;
+}
+.navbar-nav li.current{
+	background: #990000;
+	color: #fff;
+}
+.navbar-nav li.current a{
+	color: #fff;
+}
+.navbar-nav  .dropdown-menu li a{
+	color: #fff;
+}
+.navbar .nav > li:hover .dropdown-menu {
+	background: #2b2727;
+	display: block;
+}
+.navbar-nav  .dropdown-menu li a:hover{
+	background: #990000;
+}
+
+.navbar .icon-bar{
+	background: #fff;
+}
+.navbar .navbar-toggle{
+	border-color: #fff;
+}
+.footer{
+	width: 100%;
+	background: #333;
+	height: auto;
+	padding: 15px 50px;
+}
+.footer-content{
+	text-align: center;
+	color: #999;
+	font-size: 14px;
+	font-weight: bold;
+}
+.eyelle{
+	width: 50px;
+}
+.logo-container{
+	 z-index:-1;
+	margin-top: 54px;
+	height: 132px;
+	background: url(../new-images/logoBg.jpg) no-repeat  center/cover;
+	width: 100%;
+	border-bottom: 4px  #382e2e solid;
+}
+.header_cart {
+}
+.header_cart a{
+	font-family: "Candara";
+	height: 49px;
+	display: block;
+	padding: 0 15px;
+	background: #990000;
+	line-height: 49px;
+	-webkit-transition: 0.25s ease-in-out;
+	-moz-transition: 0.25s ease-in-out;
+	-ms-transition: 0.25s ease-in-out;
+	-o-transition: 0.25s ease-in-out;
+	transition: 0.25s ease-in-out;
+}
+.header_cart a b {
+	font-weight: bold;
+	vertical-align: baseline;
+	margin: 0 5px 0 0;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.header_cart a span {
+	vertical-align: baseline;
+	margin: 0 5px 0 0;
+	color:#fff;
+}
+.header_cart a span.cart-total-price {
+	margin: 0;
+}
+.header_cart a:hover {
+	background: #797979;
+	color:#990000;
+}
+.header_cart a:hover span {
+	color: #ffffff;
+}

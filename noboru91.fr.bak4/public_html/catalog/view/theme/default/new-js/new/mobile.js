@@ -1,0 +1,12 @@
+$(document).ready(function(){
+	$("#cartIcon").click(function(){
+		$("#fixedCart").toggle();
+	});
+	$(".carteRight").css({
+		"padding-top":"0",
+	});
+	$("#mainNav").append($("#loginornot").html());
+	$("#nousMobile").css({
+		"padding-top":$("#nousContainer").height(),
+	});
+});

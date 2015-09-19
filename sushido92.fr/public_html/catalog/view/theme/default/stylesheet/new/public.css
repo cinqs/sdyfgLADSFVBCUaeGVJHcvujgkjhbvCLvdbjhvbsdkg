@@ -1,0 +1,138 @@
+@font-face {
+	font-family: "Ubuntu";
+	font-style: normal;
+	src: url('../fonts/Ubuntu-R_0.ttf');
+}
+body {
+	font-family: "Ubuntu", Tahoma, "Microsoft Yahei";
+	background: black;
+}
+html {
+	font-size: 100px;
+}
+ul,li,p{
+	margin: 0px;
+	padding: 0px;
+}
+@media (min-width:320px) and (max-width:640px) {
+	html {
+		font-size: 50px;
+	}
+}
+@media (min-width:640px) and (max-width:1024px) {
+	html {
+		font-size: 75px;
+	}
+}
+@media (max-width:320px) {
+	html {
+		font-size: 40px;
+	}
+}
+img {
+	/*width: 100%;*/
+}
+a{
+	text-decoration: none;
+}
+a:active, a:visited, a:focus, a:hover {
+	outline: 0;
+}
+p{
+	margin-bottom: 0px;
+}
+.bold{
+	font-weight: bold;
+}
+.clear{
+	clear: both;
+	font-size: 0px;
+	height: 0px;
+	margin: 0;
+}
+.float-l{
+	float: left;
+}
+.float-r{
+	float: right;
+}
+/*font color*/
+.color-white {
+	color: #fff;
+}
+.color-red {
+	color: #e95a6f;
+}
+.color-red2 {
+	color: #f27995;
+}
+.color-blue {
+	color: #0098da
+}
+.color-yellow {
+	color: #fdfbe2
+}
+.color-gray{
+	color: #a8a8a8;
+}
+.padLeft40{
+	padding-left: 0.4rem;
+}
+.marTop10{
+	margin-top: 10px;
+}
+.marTop15{
+	margin-top: 15px;
+}
+.marTop35{
+	margin-top: 35px;
+}
+.marTop25{
+	margin-top: 0.25rem;
+}
+.marTop50{
+	margin-top: 0.5rem;
+}
+.marRight20{
+	margin-right: 0.2rem;
+}
+.marLeft15{
+	margin-left: 0.15rem;
+}
+/*font size*/
+.font14{
+	font-size: 14px;
+}
+.font16{
+	font-size: 16px;
+}
+.font18{
+	font-size: 0.18rem;
+}
+.font20{
+	font-size: 0.2rem;
+}
+.font24{
+	font-size: 0.24rem;
+}
+.font28{
+	font-size: 0.28rem;
+}
+.font42{
+	font-size: 0.42rem;
+}
+.font36{
+	font-size: 0.36rem;
+}
+.font32{
+	font-size: 0.32rem;
+}
+.width3rem{
+	width: 3rem;
+}
+.width25rem{
+	width: 2.5rem;
+}
+.width5rem{
+	width: 5.5rem;
+}

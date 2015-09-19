@@ -1,0 +1,1050 @@
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #fff;
+}
+.viewport {
+	width: 100%;
+	position: relative;
+}
+.navbar, .header {
+	background: #8fbc21;
+}
+.header {
+	padding: 0px 30px;
+}
+.navbar {
+	height: 62px;
+	box-shadow: none;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+	color: #ff9933;
+	padding: 0px;
+	margin: 0px;
+	height: 0.62rem;
+	margin-left: 0.25rem;
+}
+.navbar-default .navbar-brand span.logo {
+	float: left;
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin-right: 0.1rem;
+	padding-top: 12px;
+}
+.navbar-default .navbar-brand span.logo-wz {
+	line-height: 62px;
+	font-size: 0.32rem;
+}
+.login-div {
+	float: left;
+	margin-left: 10px;
+	padding-top: 10px;
+}
+.login-suc-div {
+	float: left;
+	margin-left: 200px;
+	color: #fff;
+}
+.login-suc-div h3 {
+	font-size: 0.24rem;
+}
+.login-div p {
+	margin-bottom: 0px;
+}
+.login-div p a:hover {
+	color: #ff9933;
+}
+.navbar-default {
+	border: none;
+}
+.navbar-default .navbar-nav > li > a {
+	padding: 0.2rem 0.3rem;
+	color: white;
+	text-transform: uppercase;
+	text-shadow: none;
+	font-size: 0.24rem;
+}
+@media only screen and (max-width: 1700px) {
+    .navbar-default .navbar-nav > li > a {
+		padding: 0.2rem 0.25rem;
+		color: white;
+		text-transform: uppercase;
+		text-shadow: none;
+		font-size: 0.18rem;
+	}
+}
+@media only screen and (max-width: 1500px) {
+    .navbar-default .navbar-nav > li > a {
+		padding: 0.2rem 0.2rem;
+		color: white;
+		text-transform: uppercase;
+		text-shadow: none;
+		font-size: 0.18rem;
+	}
+}
+@media only screen and (max-width: 1400px) {
+    .navbar-default .navbar-nav > li > a {
+		padding: 0.2rem 0.15rem;
+		color: white;
+		text-transform: uppercase;
+		text-shadow: none;
+		font-size: 0.16rem;
+	}
+}
+@media only screen and (max-width: 1300px) {
+    .navbar-default .navbar-nav > li > a {
+		padding: 0.2rem 0.1rem;
+		color: white;
+		text-transform: uppercase;
+		text-shadow: none;
+		font-size: 0.16rem;
+	}
+}
+.navbar-default .navbar-nav > li > a:hover {
+	color: #e95a6f;
+}
+.navbar-right {
+	margin-right: 0.25rem;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border: none;
+	border-top: 1px solid #8fbc21;
+	background: #8fbc21;
+	box-shadow: none;
+}
+.navbar-toggle {
+	margin-top: 0.2rem;
+	margin-bottom: 18px;
+}
+.navbar-default .navbar-toggle {
+	border-color: #fff;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #ff9933;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: #8fbc21;
+}
+.container {
+	width: 100%;
+}
+
+/*banner css*/
+.index-banner .logo-box {
+	position: absolute;
+	left: 50%;
+	top: 3rem;
+	margin-left: -2.50rem;
+}
+@media (min-width:320px) and (max-width:680px) {
+	.index-banner .logo-box {
+		position: absolute;
+		left: 50%;
+		top: 1.5rem;
+		margin-left: -2.50rem;
+	}
+	.carte-container .carteLeft {
+		position: relative;
+		width: 100%;
+	}
+	.carte-container .carteRight {
+		width: 100%;
+	}
+}
+.index-banner .logo-box div.img {
+	width: 1.4rem;
+	height: 1.4rem;
+	float: left;
+	display: inline-block;
+}
+.index-banner .logo-box .wz {
+	float: left;
+}
+.index-banner .logo-box .wz h3 {
+	font-size: 0.45rem;
+	text-shadow: 0px 3px 5px rgba(0, 0, 0, .5);
+}
+.index-banner .logo-box .wz h1 {
+	font-size: 0.65rem;
+	text-shadow: 0px 3px 5px rgba(0, 0, 0, .5);
+}
+.index-banner .slider-caption a.index-btn {
+	bottom: 1rem;
+	right: 1rem;
+	position: fixed;
+	width: 2rem;
+	height: 0.86rem;
+	z-index: 9999;
+}
+
+/*carte-container end*/
+.carte-container {
+}
+.carteLeft {/*
+	position: fixed;
+	width: 22%;
+	height: auto;
+	bottom: 0px;
+	top: 0px;
+	left: 0px;border-right: 2px solid  #e95a6f;*/
+	height: 100%;
+	background: transparent;
+	
+	padding-left: 0.4rem;
+	color: #a8a8a8;
+	padding-top: 65px;
+}
+.carteLeft .left-top p.p1 {
+	overflow: hidden;
+}
+.carteLeft .left-top2 {
+	line-height: 1.8;
+}
+.carteLeft .left-top2 p {
+	margin-bottom: 5px;
+}
+.total-list-box {
+	padding-right: 0.2rem;
+}
+.total-list-box ul.ul1 {
+	margin: 0px;
+	padding: 0px;
+}
+.total-list-box ul.ul1 li.li {
+	border-bottom: 1px solid #e95a6f;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	height: 0.38rem;
+}
+.total-list-box ul.ul1 li.li span.lb {
+	color: #e95a6f;
+	float: left;
+	font-size: 0.16rem;
+	text-align: left;
+}
+.total-list-box ul.ul1 li.li span.price {
+	color: #e95a6f;
+	float: right;
+	font-size: 0.16rem;
+	padding-right: 10px;
+	text-align: right;
+}
+.carteRight {
+	position: relative;
+	padding-top: 65px;
+	padding-left: 4%;
+	border-left: 2px solid #e95a6f;
+}
+.tb-icon {
+	border-radius: 15px;
+	line-height: 0.35rem;
+	border: 1px solid #7d7d7d;
+	text-align: center;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 0.2rem;
+	/*height: 0.35rem;
+	width: 2rem;*/
+}
+.carte-nav {
+	margin-bottom: 0.5rem;
+	margin: 0 auto;
+}
+.carte-nav a {
+	font-size: 0.18rem;
+	margin-right: 0.3rem;
+	display: inline-block;
+	color: #666;
+	margin-top: 0.1rem;
+	padding: 4px 10px;
+	text-transform: uppercase;
+}
+@media only screen and (max-width: 1700px) {
+    .carte-nav a {
+		font-size: 0.16rem;
+		margin-right: 0.3rem;
+		display: inline-block;
+		color: #666;
+		margin-top: 0.1rem;
+		padding: 4px 10px;
+		text-transform: uppercase;
+	}
+}
+@media only screen and (max-width: 1500px) {
+    .carte-nav a {
+		font-size: 0.14rem;
+		margin-right: 0.3rem;
+		display: inline-block;
+		color: #666;
+		margin-top: 0.1rem;
+		padding: 4px 10px;
+		text-transform: uppercase;
+	}
+}
+@media only screen and (max-width: 1400px) {
+    .carte-nav a {
+		font-size: 0.12rem;
+		margin-right: 0.3rem;
+		display: inline-block;
+		color: #666;
+		margin-top: 0.1rem;
+		padding: 4px 10px;
+		text-transform: uppercase;
+	}
+}
+@media only screen and (max-width: 1300px) {
+    .carte-nav a {
+		font-size: 0.1rem;
+		margin-right: 0.3rem;
+		display: inline-block;
+		color: #666;
+		margin-top: 0.1rem;
+		padding: 4px 10px;
+		text-transform: uppercase;
+	}
+}
+.carte-nav a:hover {
+	text-decoration: none;
+}
+.carte-nav a.cur {
+	border: 1px solid #8fbc21;
+	border-radius: 15px;
+}
+.carteList div.item {
+	text-align: center;
+	margin-bottom: 0.2rem;
+}
+.carteList .col-md-2 {
+	padding: 0px 30px;
+}
+.carteList div.item a {
+	display: block;
+	text-decoration: none;
+}
+.carteList div.item .item-content h5.tit {
+	color: #e95a6f;
+	/*font-weight: bold;*/
+	font-size: 0.15rem;
+}
+.carteList div.item .item-content span.price {
+	color: #8fbc21;
+	/*font-weight: bold;*/
+	font-size: 0.2rem;
+	margin-right: 5px;
+}
+.carteList div.item .item-content span.icon {
+	border: 1px solid #a0a0a0;
+	border-radius: 10px;
+	color: #a0a0a0;
+	font-size: 0.16rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	padding: 3px 10px;
+	text-align: center;
+}
+.carteList div.item a:hover .item-content span.icon {
+	background: #e95a6f;
+	color: #fff;
+	border: 1px solid #e95a6f;
+}
+
+/* Popup css*/
+.carte-container .mask {
+	position: fixed;
+	background: #333;
+	bottom: 0px;
+	top: 0px;
+	width: 100%;
+}
+.carte-layer {
+	background: #e6e7e8;
+	width: 800px;
+	margin-left: -400px;
+	height: auto;
+	position: absolute;
+	left: 50%;
+	top: 1rem;
+	z-index: 999;
+	padding-top: 0.4rem;
+}
+.layer-content {
+	line-height: 0.5rem;
+	padding: 0.4rem 0.2rem 0.6rem  1.6rem;
+	color: #606062;
+}
+.layer-content h5.tit {
+	border: 1px solid #7c7c7e;
+	border-radius: 0.15rem;
+	padding: 8px 15px;
+	display: inline-block;
+	font-size: 0.16rem;
+	margin-left: -0.8rem;
+}
+.carte-layer .logo3 {
+	position: absolute;
+	top: 1.5rem;
+	left: 0.5rem;
+	width: 0.74rem;
+	height: 1.6rem;
+}
+.layer-content  p.p2 {
+	color: #848688;
+	font-size: 0.16rem;
+}
+.layer-content  p.p2 span {
+	font-size: 0.2rem;
+	margin-right: 0.2rem;
+	text-align: left;
+	line-height: 0.5rem;
+}
+.dot_icon {
+	border-radius: 50%;
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	background: #00afef;
+	margin-right: 8px;
+}
+@media (min-width:320px) and (max-width:640px) {
+	.carte-layer {
+		width: 90%;
+		position: absolute;
+		left: 50%;
+		margin-left: -45%;
+		top: 1.6rem;
+	}
+	.carte-layer .logo3 {
+		position: absolute;
+		top: 1.5rem;
+		left: 0.3rem;
+	}
+}
+.carte-table {
+	padding-right: 1.5rem;
+}
+.carte-table ul.ul2 li {
+	list-style: none;
+	padding: 0px 0px 0px 8px;
+}
+.carte-table ul.ul2 li.line {
+	border-bottom: 1px #e95a6f solid;
+	overflow: hidden;
+}
+.carte-table ul.ul2 li.line span.lb {
+	font-size: 0.18rem;
+	float: left;
+}
+.carte-table ul.ul2 li.line span.price {
+	text-align: right;
+	float: right;
+	font-size: 0.24rem;
+	font-weight: bold;
+}
+.carte-table ul.ul2 li.line span.nombre {
+	text-align: right;
+	display: inline-block;
+	font-size: 0.18rem;
+	float: right;
+	margin-right: 10px;
+	color: #848688;
+}
+.carte-table ul.ul2 li.line span.num {
+	text-align: right;
+	float: right;
+	font-size: 0.18rem;
+	color: #848688;
+}
+.carte-table ul.ul2 li.no-line {
+	line-height: 0.4rem;
+}
+.carte-table ul.ul2 li.no-line span.lb {
+	text-transform: uppercase;
+	font-size: 0.18rem;
+}
+.carte-table ul.ul2 li.no-line span.num {
+	text-align: right;
+	float: right;
+	font-size: 0.18rem;
+	color: #848688
+}
+.total {
+	padding: 0.15rem 0rem;
+}
+.total span.lf {
+	text-transform: uppercase;
+	font-size: 0.32rem;
+}
+.total span.rg {
+	float: right;
+	font-size: 0.26rem;
+}
+.com-btn {
+	text-align: center;
+}
+.com-btn a {
+	border-radius: 5px;
+	border: 1px solid  #eb6e8b;
+	text-align: center;
+	color: #eb6e8b;
+	font-size: 0.16rem;
+	padding: 5px 25px;
+}
+i.close-btn {
+	width: 30px;
+	height: 30px;
+	line-height: 24px;
+	background: #ec5478;
+	color: #fff;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 50%;
+	position: absolute;
+	right: -15px;
+	top: -15px;
+	-ms-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	cursor: pointer;
+}
+
+/*nousPage css*/
+.nousPage .nousMain div.nousLeft {
+	width: 40%;
+	float: left;
+	position: fixed;
+	border-right: 2px solid  #e95a6f;
+	position: relative;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	height: 100%;
+	padding-top: 1.5rem;
+	min-height: 1100px;
+	text-align: right;
+	padding-right: 1rem;
+}
+.nousPage .nousMain .add-datail {
+	padding-top: 0.5rem;
+	font-size: 0.2rem;
+}
+.nousPage .nousMain .nousRight {
+	float: left;
+	width: 60%;
+	margin-left: -3px;
+	position: relative;
+}
+.nousPage .nousMain .forLogo {
+	position: absolute;
+	width: 1.2rem;
+	height: 1.2rem;
+	border-radius: 50%;
+	border: 2px solid #e95a6f;
+	left: -0.6rem;
+	top: 1.8rem;
+	padding: 0.1rem;
+	background: #fff;
+}
+.nousPage .nousMain .nousRight .content {
+	padding-top: 1.5rem;
+	padding-left: 1rem;
+}
+.nousPage .nousMain .nousRight .content div.box1 {
+	font-size: 0.18rem;
+	line-height: 0.32rem;
+}
+.nousPage .nousMain .nousRight .content div.box2 {
+	color: #666;
+	line-height: 0.48rem;
+}
+.nousPage .nousMain .nousRight .content div.box2 p.p1 {
+	font-size: 0.18rem;
+	line-height: 0.42rem;
+}
+.nousPage .nousMain .nousRight .content div.box2 p.p1 span.lb {
+	margin-right: 0.4rem;
+}
+
+/*formuleavolonte css*/
+.formPage {
+}
+.formMain .formLeft {
+	background: #fff;
+	border-right: 2px solid #e95a6f;
+	bottom: 0;
+	color: #a8a8a8;
+	height: auto;
+	left: 0;
+	padding-left: 0.4rem;
+	padding-top: 65px;
+	position: fixed;
+	top: 0;
+	width: 22%;
+}
+.formMain .formLeft  .content {
+	padding-top: 0.5rem;
+}
+.formRight {
+	float: right;
+	padding-left: 0.5rem;
+	padding-top: 65px;
+	position: relative;
+	width: 78%;
+}
+.ad-list p {
+	margin-bottom: 10px;
+}
+.ad-list p i.icon {
+	background: url(../images/dot_icon.png) no-repeat center center / 14px 14px;
+	display: block;
+	float: left;
+	height: 14px;
+	margin-right: 10px;
+	margin-top: 6px;
+	width: 14px;
+}
+.total-box {
+	margin-top: 0.5rem;
+	clear: both;
+	position: relative;
+}
+.total-box h4, p {
+	margin: 0px;
+	margin-top: 5px;
+}
+.total-box .left {
+	display: inline-block;
+	float: left;
+	border-right: 1px #e95a6f solid;
+	padding-right: 0.15rem;
+}
+.total-box .right {
+	display: inline-block;
+	float: left;
+	padding-right: 0.15rem;
+	padding-left: 0.15rem;
+	position: relative;
+}
+.total-box .right i.tips {
+	position: absolute;
+	top: -10px;
+	right: 0.2rem;
+	font-style: normal;
+	font-size: 10px;
+}
+.ad-list {
+	clear: both;
+	font-size: 0.18rem;
+	padding-right: 0.3rem;
+	color: #666;
+}
+.ad-list p {
+	margin-bottom: 0.2rem;
+}
+.formRight {
+	padding: 1rem 0.2rem  0.5rem 0.2rem;
+}
+.formRight  .productList {
+	width: 85%;
+	margin: 0px auto;
+	position: relative;
+}
+.formRight .flex-control-nav {
+	display: none;
+}
+.flex-direction-nav {
+	position: relative;
+}
+.formRight a.prev {
+	position: relative;
+}
+.formRight a.prev {
+	background-image: url(../images/nav.png);
+	background-repeat: no-repeat;
+	background-position: -50px top;
+	display: block;
+	height: 47px;
+	width: 25px;
+	cursor: pointer;
+	position: absolute;
+	left: -0.8rem;
+	top: 4rem;
+}
+.formRight a.prev:hover {
+	background-position: -75px top;
+}
+.formRight a.next {
+	background-image: url(../images/nav.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	display: block;
+	height: 47px;
+	width: 25px;
+	cursor: pointer;
+	top: 4rem;
+	right: -0.8rem;
+	position: absolute;
+}
+.formPage .formRight a.next:hover {
+	background-position: -25px top;
+}
+.formPage .formRight .item .item-content h5.num {
+	color: #666261;
+}
+.formPage .formRight .item .item-content p.tit {
+	color: #666;
+}
+.formPage .formRight .item .item-box a {
+	display: block;
+}
+.formPage .formRight .item .item-content {
+	padding: 0.15rem;
+}
+
+/*asdfsadf*/
+.box {
+	width: 680px;
+	margin: 100px auto;
+	background: #fff;
+	padding: 0.1rem;
+}
+
+/*bar */
+.mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail {
+	background-color: #AAAAAA;
+}
+.mCS-light-3.mCSB_scrollTools .mCSB_draggerRail, .mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail {
+	background-color: #AAAAAA;
+	width: 1px;
+}
+.mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	background-color: #BFBFBF;
+}
+.mCS-light-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	width: 8px;
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	border-radius: 0px;
+}
+
+/*select css*/
+.select_box {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	width: 100%;
+	position: relative;
+	height: 26px;
+	line-height: 26px;
+}
+.select_box span.value {
+	cursor: pointer;
+	display: block;
+	overflow: hidden;
+	padding: 2px 0px 2px 5px;
+	width: 100%;
+	line-height: 18px;
+	color: #ccc;
+	font-weight: bold;
+	font-size: 0.16rem;
+}
+.select_box ul li {
+	cursor: pointer;
+}
+.select_box .son_ul {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #ccc;
+	left: -1px;
+	position: absolute;
+	top: 24px;
+	width: 100.7%;
+	z-index: 99;
+	border-radius: 5px;
+}
+.select_box .son_ul li.son_li {
+	display: block;
+	line-height: 24px;
+	padding-left: 5px;
+	color: #ccc;
+	font-weight: bold;
+	font-size: 0.16rem;
+}
+.son_ul .hover {
+	background: #eeeeee;
+}
+.down-iocn {
+	color: #BFBFBF;
+	font-size: 9px;
+	cursor: pointer;
+	position: absolute;
+	right: -15px;
+	top: 2px;
+	transform: rotate(90deg);
+}
+.down-icon-box {
+	position: absolute;
+	right: 20px;
+	top: 5px;
+	height: 15px;
+	float: left;
+	border-left: 1px solid #BFBFBF;
+	text-align: center;
+}
+.ddd {
+	width: 80px;
+	position: relative;
+	float: left;
+	margin-left: 0.15rem;
+}
+
+/*loginPage css*/
+.loginPage {
+	text-align: center;
+}
+.loginPage .content {
+	padding-top: 1.5rem;
+}
+.loginPage .content .logo {
+	width: 1.59rem;
+	height: 0.87rem;
+	text-align: center;
+	margin: 0px auto;
+	margin-bottom: 0.5rem;
+}
+.loginPage .main {
+	width: 12rem;
+	margin: 0px auto;
+	text-align: center;
+}
+.loginPage .top-box .left-box {
+	float: left;
+	display: inline-block;
+	text-align: right;
+}
+.loginPage .top-box span.left-box {
+	display: block;
+	float: left;
+	font-size: 0.22rem;
+	text-align: center;
+	width: 1.8rem;
+}
+.loginPage .main .top-box  p.tips{
+	width: 8rem;
+	margin: 0px auto;
+	font-size: 0.2rem;
+	color: #ff3366;
+	display: block;
+	float: left;
+}
+.loginPage .main .top-box{
+	position: relative;
+	clear: both;
+}
+.loginPage .top-box a{
+	color: #999;
+	display: block;
+}
+.loginPage .main .top-box .cur i.icon {
+	background: rgba(0, 0, 0, 0) url(../images/dot_icon2.png) no-repeat scroll center center;
+	background-size:12px 12px;
+}
+.loginPage .main .top-box i.icon {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	width: 40px;
+}
+.loginPage .top-box .cur  p{
+	color: #ff3366;
+}
+.loginPage .top-box span.right-box{
+	display: block;
+	float: right;
+	font-size: 0.22rem;
+	text-align: center;
+	width: 1.8rem;
+}
+.loginPage .top-box  p.line{
+	width: 80%;
+	border-top: 2px solid #ef7f0d;
+	text-align: center;
+	margin: 0px auto;
+
+}
+.loginPage .main  .register-tit{
+	margin-top: 0.5rem;
+	margin-bottom: 0.4rem;
+}
+.loginPage .pub-input{
+	border-radius: 8px;
+	border:1px solid #b6b6b7;
+	padding: 5px 0.15rem 5px;
+	font-size: 0.2rem;
+}
+.loginPage  .pub-input-div{
+	position: relative;
+}
+.loginPage .pub-input-div .control-label i.icon{
+	background: rgba(0, 0, 0, 0) url(../images/dot_icon2.png) no-repeat scroll center center;
+	background-size:0.12rem 0.12rem;
+	text-align: center;
+	display: inline-block;
+	width: 0.16rem;
+	height: 0.16rem;
+	margin-right: 0.15rem;
+}
+.loginPage  .pub-input-div .controls{
+	display: inline-block;
+
+}
+.loginPage  a.login-btn{
+	color: #ff3366;
+	font-size: 0.24rem;
+	border-radius: 0.08rem;
+	border:1px solid #ff3366;
+	text-align: center;
+	padding: 5px 0.5rem;
+}
+.loginPage  a.login-btn:hover{
+	text-decoration: underline;
+}
+.loginPage .e-mail-span{
+	color: #999;
+	font-size: 0.2rem;
+	border-radius: 0.08rem;
+	border:1px solid #999;
+	text-align: center;
+	padding: 5px 1rem;
+}
+.loginPage a.register-btn{
+	color: #ff3366;
+	font-size: 0.18rem;
+	border-radius: 0.08rem;
+	border:1px solid #ff3366;
+	text-align: center;
+	padding: 5px 0.25rem;
+}
+/*registerPage css*/
+.registerPage{
+
+}
+.registerPage .content {
+	padding-top: 1.5rem;
+}
+.registerPage .content .logo {
+	width: 1.59rem;
+	height: 0.87rem;
+	text-align: center;
+	margin: 0px auto;
+	margin-bottom: 0.5rem;
+}
+.registerPage .main {
+	width: 12rem;
+	margin: 0px auto;
+	text-align: center;
+}
+.registerPage .top-box .left-box {
+	float: left;
+	display: inline-block;
+	text-align: right;
+}
+.registerPage .top-box span.left-box {
+	display: block;
+	float: left;
+	font-size: 0.22rem;
+	text-align: center;
+	width: 1.8rem;
+}
+.registerPage .main .top-box  p.tips{
+	width: 8rem;
+	margin: 0px auto;
+	font-size: 0.2rem;
+	color: #ff3366;
+	display: block;
+	float: left;
+}
+.registerPage .main .top-box{
+	position: relative;
+	clear: both;
+}
+.registerPage.top-box a{
+	color: #999;
+	display: block;
+}
+.registerPage .main .top-box .cur i.icon {
+	background: rgba(0, 0, 0, 0) url(../images/dot_icon2.png) no-repeat scroll center center;
+	background-size:12px 12px;
+}
+.registerPage .main .top-box i.icon {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	width: 40px;
+}
+.registerPage .top-box .cur  p{
+	color: #ff3366;
+}
+.registerPage .top-box span.right-box{
+	display: block;
+	float: right;
+	font-size: 0.22rem;
+	text-align: center;
+	width: 1.8rem;
+}
+.registerPage .top-box  p.line{
+	width: 80%;
+	border-top: 2px solid #ef7f0d;
+	text-align: center;
+	margin: 0px auto;
+
+}
+.registerPage .main  .register-tit{
+	margin-top: 0.5rem;
+	margin-bottom: 0.4rem;
+}
+.registerPage .pub-input{
+	border-radius: 8px;
+	border:1px solid #b6b6b7;
+	padding: 5px 0.15rem 5px;
+	font-size: 0.2rem;
+}
+.registerPage .pub-input-div{
+	position: relative;
+}
+.registerPage .pub-input-div .control-label i.icon{
+	background: rgba(0, 0, 0, 0) url(../images/dot_icon2.png) no-repeat scroll center center;
+	background-size:0.12rem 0.12rem;
+	text-align: center;
+	display: inline-block;
+	width: 0.16rem;
+	height: 0.16rem;
+	margin-right: 0.15rem;
+}
+.registerPage  .pub-input-div .controls{
+	display: inline-block;
+
+}
+.registerPage .pub-input-div .leftBox{
+	display: inline-block;
+
+}
+.registerPage .pub-input-div .rightBox{
+	display: inline-block;
+	
+}
+.registerPage a.register-btn {
+    border: 1px solid #ff3366;
+    border-radius: 0.08rem;
+    color: #ff3366;
+    font-size: 0.24rem;
+    padding: 5px 0.5rem;
+    text-align: center;
+}

@@ -1,0 +1,196 @@
+/* ---------------------MegaMenu------------------*/
+.menu {
+	position: relative;
+	overflow: visible;
+	width: 1100px;
+	margin: 0px auto;
+}
+nav {
+	width: 1100px;    /*导航位置*/
+	margin: 0px auto;
+	text-align: center;
+	position: relative;
+}
+ul.nav-main > li > a {
+	display: block;
+	font-size: 14px;
+	height: 58px;
+	line-height: 58px;
+	position: relative;
+	text-transform: uppercase;
+	color: #cdb794 !important;
+	font-family: "Open Sans Condensed", Raleway;
+	font-size: 19px;
+	font-weight: 300 !important;
+	text-decoration: none;
+	transition: all 0s ease 0s;
+}
+ul.nav-main > li > a:hover{
+	border-bottom: 5px #ff3e3e solid;
+	background: #2E363C;
+	height: 57px;
+	line-height: 57px;
+
+}
+/*nav-main*/
+.nav-main {
+	width: 100%;
+	height: 100%;
+	list-style-type: none;
+}
+.nav-main span {
+	display: inline-block;
+	margin-left: 18px;
+	width: 7px;
+	height: 7px;
+	background: url('../images/down-icon.png') no-repeat;
+}
+
+/*图标向上旋转*/
+.hover-up {
+	transition-duration: .5s;
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+}
+
+/*图标向下旋转*/
+.hover-down {
+	transition-duration: .5s;
+	transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+}
+
+/*导航条设置*/
+.nav-main>li {
+	width: 120px;
+	height: 100%;
+	display: block;
+	float: left;
+	color: #fff;
+	margin-right: 1px;
+	cursor: pointer;
+}
+.nav-main>li:hover {
+	background: #ff3e3e;
+}
+
+/*隐藏盒子设置*/
+.hidden-box {
+	width: 400px;
+	background: #373e45;
+	position: absolute;
+	display: none;
+	top: 58px;
+	border-radius: 0px 0px 5px 5px;
+	padding-bottom: 8px;
+}
+.hidden-box>ul {
+	list-style-type: none;
+	color: #ff3e3e;
+	cursor: pointer;
+}
+.hidden-box>ul li {
+	float: left;
+	width: 200px;
+}
+.hidden-box>ul li a {
+	color: #fff;
+	display: block;
+	font-weight: 600;
+	padding: 9px 20px 8px;
+}
+.hidden-box li:hover {
+	background: #ff3e3e;
+	color: #fff;
+}
+
+/*隐藏盒子位置设置*/
+.hidden-loc-index {
+	left: 121px;
+}
+.hidden-loc-us {
+	left: 242px;
+}
+.hidden-loc-info {
+	left: 363px;
+}
+
+/* flexslider */
+.flexslider {
+	margin: 0px auto;
+	position: relative;
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+	text-align: center;
+	zoom: 1;
+}
+.flex-viewport {
+	max-height: 2000px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	transition: all 1s ease;
+}
+.flexslider .slides {
+	zoom: 1;
+}
+.flex-direction-nav a {
+	width: 60px;
+	height: 90px;
+	line-height: 99em;
+	overflow: hidden;
+	margin: -60px 0 0;
+	display: block;
+	background: url(../images/ad_ctr.png) no-repeat;
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transition: all .3s ease;
+
+}
+.flex-direction-nav .flex-next {
+	background-position: 0 -90px;
+	right: 0;
+}
+.flex-direction-nav .flex-prev {
+	left: 0;
+}
+.flexslider:hover .flex-next {
+	opacity: 0.8;
+	filter: alpha(opacity=25);
+}
+.flexslider:hover .flex-prev {
+	opacity: 0.8;
+	filter: alpha(opacity=25);
+}
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {
+	opacity: 1;
+	filter: alpha(opacity=50);
+}
+.flex-control-nav {
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+}
+.flex-control-nav li {
+	margin: 0 5px;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+}
+.flex-control-paging li a {
+	background: url(../images/dot.png) no-repeat 0 -16px;
+	display: block;
+	height: 16px;
+	overflow: hidden;
+	text-indent: -99em;
+	width: 16px;
+	cursor: pointer;
+}
+.flex-control-paging li a.flex-active {
+	background-position: 0 0;
+}

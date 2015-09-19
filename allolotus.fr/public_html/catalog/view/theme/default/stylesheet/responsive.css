@@ -1,0 +1,194 @@
+/* ************************************* < 1200px ************************************* */
+@media (max-width:1200px) {
+.header_user li + li {
+	margin: 0 0 0 10px;
+	padding: 0 0 0 10px;
+}
+.header_user li a {
+	font-weight: normal;
+	text-transform: none;
+}
+#logo {
+	text-align: center;
+}
+#logo a b {
+	text-align: left;
+}
+.custom_header1 {
+	text-align: center;
+}
+.custom_showcase3 a .banner_caption h3, .custom_showcase4 a .banner_caption h3 {
+	font-size: 50px;
+}
+.custom_showcase3 a .banner_caption h4, .custom_showcase4 a .banner_caption h4 {
+	font-size: 40px;
+}
+.product_wrap #bx-pager a {
+	width: 84px;
+}
+
+#nav-min-hidden{
+	display: block;
+}
+
+
+}
+
+/* ************************************* < 980px ************************************* */
+@media (max-width:992px) {
+#nav-min-hidden{
+	display: block;
+}
+
+.custom_showcase1 a .banner_caption, .custom_showcase2 a .banner_caption {
+	display: none;
+}
+.custom_showcase3 a .banner_caption h3, .custom_showcase4 a .banner_caption h3, .custom_showcase3 a .banner_caption h4, .custom_showcase4 a .banner_caption h4, .custom_showcase3 a .banner_caption h5, .custom_showcase4 a .banner_caption h5 {
+	display: none;
+}
+.custom_showcase3 a .banner_caption h6, .custom_showcase4 a .banner_caption h6 {
+	padding: 85px 0 0 0;
+}
+.product_wrap #bx-pager a {
+	width: 61px;
+}
+}
+
+/* ************************************* < 767px ************************************* */
+@media (max-width:767px) {
+.container {
+	padding: 0 15px;
+}
+.visible-xs, .visible-sm, .visible-md, .visible-lg {
+	display: none !important;
+}
+#nav-min-hidden{
+	display: none;
+}
+
+#phone-nav-hidden{
+	display: block;
+}
+.navbar-toggle{
+	float: none;
+}
+.column_left, .column_right, .column_center, #main_content {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+/* HEADER */
+#header {
+}
+.header_user {
+	left: 15px;
+}
+.header_currency {
+	right: 15px;
+}
+.custom_showcase {
+	max-width: 292px;
+}
+.custom_showcase3 a .banner_caption h6, .custom_showcase4 a .banner_caption h6 {
+	padding: 135px 0 0 0;
+}
+/* MAIN PRODUCT LISTING */
+#main_content .product {
+}
+#main_content .product > div {
+	overflow: hidden;
+}
+#main_content .product .product_img {
+	width: 120px;
+	float: left;
+	margin: 0 15px 0 0;
+}
+#main_content .product .product_img a .product_price {
+	padding: 7px;
+	position: relative;
+	left: auto;
+	bottom: auto;
+}
+#main_content .product .product_img a .product_price span {
+	margin: 0 5px 0 0 !important;
+	font-size: 15px;
+}
+#main_content .product .product_name {
+	padding: 0;
+}
+#main_content .product .product_price .money {
+}
+#main_content .product .product_price .compare-at-price {
+}
+.collection_img, .collection_desc {
+	padding-top: 15px;
+}
+/* SIDEBAR PRODUCTS LISTING */
+.column .product {
+	padding-top: 15px;
+}
+.column .product > div {
+	overflow: hidden;
+}
+.column .product .product_img {
+	width: 100px;
+	float: left;
+	margin: 0 15px 0 0;
+}
+.column .product .product_name {
+}
+.column .product .product_price {
+}
+.column .product .product_price .money {
+}
+.column .product .product_price .compare-at-price {
+}
+.column .product .product_links {
+}
+.column .product .product_links form {
+	display: inline-block;
+}
+.column .product .product_links a {
+}
+/* FOOTER */
+.custom_footer3 {
+	clear: left;
+}
+.product_wrap .product_name {
+	margin: 0;
+	padding: 30px 0 0 0;
+}
+.cart_buttons {
+	text-align: center;
+}
+.cart_buttons span.or {
+	display: block;
+	margin: 5px 0;
+}
+}
+
+/* ************************************* < 640px ************************************* */
+@media (max-width:640px) {
+.custom_showcase3 a .banner_caption h6, .custom_showcase4 a .banner_caption h6 {
+	padding: 45% 0 0 0;
+}
+}
+
+/* ************************************* < 480px ************************************* */
+@media (max-width:480px) {
+#logo a b span.shop_name {
+	font: normal 70px/1em 'Aclonica';
+}
+#logo a b span.shop_slogan {
+	margin: 0 0 0 5px;
+	font-size: 15px;
+	line-height: 1em;
+}
+.custom_footer {
+	width: 100%;
+	float: none;
+}
+}
+
+/* ************************************* < 340px ************************************* */
+@media (max-width:340px) {
+}

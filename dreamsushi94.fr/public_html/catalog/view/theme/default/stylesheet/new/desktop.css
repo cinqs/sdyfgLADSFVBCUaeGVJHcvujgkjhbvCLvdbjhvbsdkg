@@ -1,0 +1,12 @@
+#fixedCart{
+	position: fixed;
+	left: 25px;
+	width: 30vw;
+	z-index: 10001;
+}
+#cartIcon{
+	display: none;
+}
+.viewport{
+	min-height: 98vh;
+}
